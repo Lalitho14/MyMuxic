@@ -1,0 +1,30 @@
+.publicar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header header"
+    "nombre_in file_in"
+    "compartir compartir"
+  ;
+  justify-content: center;
+  align-items: center;
+  column-gap: 4rem;
+  row-gap: 4rem;
+}
+
+.publicar > h2{
+  grid-area: header;
+}
+
+.nombre_in {
+  grid-area: nombre_in;
+}
+
+.file_in {
+  grid-area: file_in;
+}
+
+.compartir {
+  grid-area: compartir;
+}

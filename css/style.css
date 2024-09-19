@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap");
+
+h1, h2, h3 {
+  font-family: "Darumadrop One", cursive;
+  color: green;
+}
+
+body {
+  background: beige;
+}
+
+.principal {
+  background: #fff;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: gray 2px 4px 6px;
+  display: block;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 10rem;
+}
+
+.tarjeta {
+  border: 2px solid greenyellow;
+  border-radius: 20px;
+  box-shadow: #ccc 2px 4px 6px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "imag audio"
+  "imag nombre";
+}
+
+.tarjeta > audio {
+  grid-area: audio;
+  justify-self: center;
+}
+
+.tarjeta > p {
+  grid-area: nombre;
+  justify-self: center;
+  font-family: "Darumadrop One", cursive;
+  font-size: 1.5rem;
+  color: green;
+}
+
+.tarjeta > img {
+  grid-area: imag;
+  width: 10rem;
+  border-radius: 40%;
+}
+
+.contenido {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  padding: 5rem;
+}
+
+footer {
+  width: 100%;
+  background-color: #7c7c7c;
+}
+
+@media (max-width: 1199px){
+  .contenido {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tarjeta {
+    display: flex;
+    flex-direction: column;
+  }
+}
