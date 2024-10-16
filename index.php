@@ -44,7 +44,7 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="https://articles-img.sftcdn.net/f_auto,t_article_cover_l/auto-mapping-folder/sites/2/2023/04/musica-youtube-descargar.jpg" class="d-block w-100" alt="...">
+                  <img src="./img/festival.jpeg" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Musica para todos</h5>
                     <p>Horas de musica gratis de tus amigos o artistas destacados.</p>
